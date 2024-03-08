@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+     font-family: "Open Sans", sans-serif;
+  
+}
+body{
+    background-color: rgb(24, 24, 44);
+}
+ nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(39, 39, 70);
+    height: 60px;
+    align-items: center;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 6px;
+    background-color: transparent;
+    margin-top: 15px;}
+.name{
+    color: rgb(255, 255, 255);
+}
+.right ul{
+    display: flex;
+    gap: 50px;
+    
+}
+.right ul li{
+    list-style: none;
+    color: rgb(245, 245, 252);
+}
+
+.right ul a{
+    text-decoration: none;
+}
+ul a li:hover{
+    text-decoration: none;
+    color: rgb(104, 104, 186);
+    font-size: 1.04rem;
+
+}
+main{
+    color: white;
+}
+main .first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 88px 0px;
+}
+.left-section{
+    /* background-color: red; */
+    width: 38%;
+margin-left: 63px;
+font-size: 29px;
+
+/* text-align: left; */
+
+    
+}
+.ash{
+    color: rgb(104, 104, 186);
+    
+}
+.right-section{
+margin-left: 63px;
+width: 33%;
+
+}
+.right-section img{
+    height: 300px;
+}
+#element{
+    color: rgb(104, 104, 186);
+
+}
+hr{
+   border: 0;
+   height: 1px;
+    background: rgb(104, 104, 186);
+    margin: 20px 30px;
+   
+}
+
+.section-2{
+    max-width: 60%;
+    margin: auto;
+    color: aliceblue;
+}
+.exo{
+    font-weight: bolder;
+}
+.past{
+    margin-left: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+.horizontal{
+    width: 77vw;
+    height: 1.5px;
+    background-color: white;
+    margin-top: 50px;
+}
+.vertical-lines{
+    display: flex;
+}
+.vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 84px;
+}
+.image-top{
+    position: relative;
+    width: 32px;
+    top: -41px;
+    left: -12px;
+}
+.job-tittle{
+    position: relative;
+    top: 50px;
+    left: -5px;
+    font-size: 12px;
+    width: 180px;
+}
+
+.about{
+    color: rgb(104, 104, 186);
+    position: relative;
+    top: 50px;
+    left: -8px;
+    width: 150px;
+    font-size: 10px; 
+}
+footer{
+    height: 190px;
+    background-color:rgb(34, 36, 39, 0.55);
+    width: 99vw;
+
+}
+
+.about-2{  
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+footer ul li{
+list-style: none;
+color: rgb(168, 168, 218);
+font-size: 15px;
+}
+footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.copy{
+    color: rgb(55, 53, 66);
+    position: relative;
+    top: -25px;
+    left: 430px;
+    margin-top: 55px;
+}
